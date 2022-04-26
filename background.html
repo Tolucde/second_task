@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://use.fontawesome.com/caa9ecd830.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.2/fabric.min.js"></script>
+    <title>Background</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu" class="menu">MENU</div>
+        <div id="close" class="close">CLOSE</div>
+        <button class="download" id="download">Download</button>
+    </header>
+    <div class="container">
+        <div id="sidebar" class="sidebar">
+            <nav class="navbar">
+                <div class="navItems"><a href="#">Element</a></div>
+                <div class="navItems imageStyle">
+                    <a href="./image.html">image</a>
+                </div>
+                <div class="navItems textStyle"><a href="./index.html">Text</a></div>
+                <div class="navItems bgStyle">
+                    <a href="./background.html">Background</a>
+                </div>
+            </nav>
+            <div id="imagePre" class="background__preview"></div>
+        </div>
+        <main id="main" class="main">
+            <div class="mainHead"></div>
+            <div class="mainContainer">
+                <div class="mainContent">
+                    <canvas id="mainBg" class="background__mainItem mainItem"> </canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./background.js"></script>
+</body>
+
+</html>

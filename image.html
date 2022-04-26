@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://use.fontawesome.com/caa9ecd830.js"></script>
+
+    <title>Image</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu" class="menu">MENU</div>
+        <div id="close" class="close">CLOSE</div>
+
+        <button class="download" id="download">Download</button>
+    </header>
+    <div class="container">
+        <div id="sidebar" class="sidebar">
+            <nav class="navbar">
+                <div class="navItems"><a href="#">Element</a></div>
+                <div class="navItems imageStyle">
+                    <a href="./image.html">Image</a>
+                </div>
+                <div class="navItems"><a href="./index.html">Text</a></div>
+                <div class="navItems"><a href="./background.html">Background</a></div>
+            </nav>
+            <div id="imagePre" class="preview"></div>
+        </div>
+        <main id="main" class="main">
+            <div class="mainHead">
+                <button id="delete">
+            <i class="fa fa-2x fa-trash" aria-hidden="true"></i>
+          </button>
+            </div>
+            <div class="mainContainer">
+                <div id="canvas" class="mainContent">
+                    <div id="mainItem" class="mainItem"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="./image.js"></script>
+
+</html>
